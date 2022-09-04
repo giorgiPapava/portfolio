@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Poppins;
+    src: url('./assets/fonts/poppins/Poppins-Regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url('./assets/fonts/poppins/Poppins-Bold.otf') format('opentype');
+  }
+}
+
+.btn {
+  @apply rounded-[35px] border border-solid border-yellow-500 bg-transparent
+   text-white hover:border-yellow-500 hover:bg-transparent;
+}
+
+.btn-arrow {
+  @apply relative overflow-hidden pr-14 ease-out
+  before:absolute before:h-12 before:w-56 before:translate-x-full
+   before:bg-yellow-500 before:transition before:duration-500 before:content-[''] 
+  after:absolute after:right-0 after:flex after:h-12 after:w-12 after:items-center
+   after:justify-center after:rounded-[50%] after:bg-yellow-500 after:content-['\2192']
+  hover:before:translate-x-0;
+}

@@ -3,7 +3,13 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "plugin:react-hooks/recommended", "xo", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
+    "xo",
+    "prettier"
+  ],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"]
@@ -14,12 +20,18 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "tailwindcss"],
   "rules": {
     "react-hooks/exhaustive-deps": "error",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "react/no-unescaped-entities": "off"
   },
   "globals": {
     "React": true
+  },
+  "settings": {
+    "tailwindcss": {
+      "config": "tailwind.config.cjs"
+    }
   }
 }
