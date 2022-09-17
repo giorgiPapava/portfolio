@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const HomeInfo = () => {
   return (
     <div className='ml-[33.3333%] w-full'>
@@ -15,9 +17,11 @@ const HomeInfo = () => {
           always looking for new challenges. I'm always targeting to write clean
           and maintainable code.
         </p>
-        <button className='btn-arrow btn'>
-          <span className='z-10'>More about me</span>
-        </button>
+        <Link to='/about'>
+          <button className='btn-arrow btn'>
+            <span className='z-10'>More about me</span>
+          </button>
+        </Link>
       </div>
     </div>
   );
