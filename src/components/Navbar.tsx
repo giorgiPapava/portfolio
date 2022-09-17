@@ -53,7 +53,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               clsx(
                 isActive ? 'bg-yellow-500' : 'bg-zinc-700',
-                'absolute top-0 right-0 -z-10 rounded-3xl p-3  opacity-0 transition-all duration-300 group-hover:pr-12 group-hover:opacity-100',
+                'absolute top-0 right-0 -z-10 rounded-3xl p-3 opacity-0 transition-all duration-300 group-hover:pr-12 group-hover:opacity-100',
               )
             }
           >

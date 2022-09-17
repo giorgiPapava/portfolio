@@ -9,9 +9,11 @@ const HomeInfo = () => {
        before:absolute before:-left-0 before:top-7 before:h-1 before:w-10 before:bg-yellow-500 before:content-[""]'
         >
           Giorgi Papava
-          <span className='block text-white'>React.js Developer</span>
+          <span className='block font-poppins text-white'>
+            React.js Developer
+          </span>
         </h1>
-        <p className='my-6 mt-4 font-sans text-sm leading-7 text-white'>
+        <p className='my-6 mt-4 text-sm leading-7 text-white'>
           I'm a self-taught React.js developer with a passion for learning new
           technologies. I have a strong background in web development and I'm
           always looking for new challenges. I'm always targeting to write clean
