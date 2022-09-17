@@ -5,8 +5,8 @@ const HomeInfo = () => {
     <div className='ml-[33.3333%] w-full'>
       <div className='mx-auto max-w-lg'>
         <h1
-          className='relative pl-16 font-poppins text-5xl font-bold uppercase leading-[62px] text-yellow-500
-       before:absolute before:-left-0 before:top-7 before:h-1 before:w-10 before:bg-yellow-500 before:content-[""]'
+          className='relative pl-16 font-poppins text-5xl font-bold uppercase leading-[62px] text-primary
+       before:absolute before:-left-0 before:top-7 before:h-1 before:w-10 before:bg-primary before:content-[""]'
         >
           Giorgi Papava
           <span className='block font-poppins text-white'>
