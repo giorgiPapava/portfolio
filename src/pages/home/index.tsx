@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className='relative w-full overflow-hidden'>
       <YellowShape />
-      <div className='flex min-h-screen items-center'>
+      <div className='flex min-h-screen flex-col items-center justify-center gap-6 lg:flex-row lg:gap-0'>
         <ProfilePicture />
         <HomeInfo />
       </div>
