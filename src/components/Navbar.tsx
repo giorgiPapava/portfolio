@@ -39,7 +39,7 @@ const Navbar = () => {
     <>
       <nav role='navigation'>
         {/* Mobile */}
-        <div className='sm:hidden'>
+        <div className='md:hidden'>
           <div
             onClick={() => setMenuOpen(!menuOpen)}
             className='absolute top-6 right-6 z-30 block cursor-pointer'
@@ -101,7 +101,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop */}
-        <div className='fixed right-8 top-1/2 z-50 hidden -translate-y-1/2 flex-col gap-5 sm:flex'>
+        <div className='fixed right-8 top-1/2 z-50 hidden -translate-y-1/2 flex-col gap-5 md:flex'>
           {NAVIGATIONS.map((nav) => (
             <NavLink
               end
