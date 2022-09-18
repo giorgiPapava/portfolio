@@ -31,3 +31,18 @@
    after:justify-center after:rounded-[50%] after:bg-primary after:content-['\2192']
   hover:before:translate-x-0;
 }
+
+.image-gallery-image {
+  @apply rounded-2xl;
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  @apply border-primary !important;
+}
+.image-gallery-thumbnail:hover {
+  @apply border-primary/50 !important;
+}
+.image-gallery-icon:hover {
+  @apply text-primary !important;
+}

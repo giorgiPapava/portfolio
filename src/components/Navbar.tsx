@@ -20,9 +20,9 @@ const NAVIGATIONS = [
   },
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Projects',
     icon: <GoBriefcase />,
-    link: '/portfolio',
+    link: '/projects',
   },
   {
     id: 4,
